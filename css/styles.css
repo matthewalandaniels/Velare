@@ -1,0 +1,29 @@
+@import 'normalize.css';
+* {
+  background: rgba(0,0,0,0.05);
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  border: 50px solid #282828;
+}
+.home_hero {
+  background-image: url("../img/home_hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.home_hero_button {
+  display: inline-block;
+  margin: 22% 0;
+  color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+}
+.home_hero_button .divider {
+  height: 14px;
+  border-right: 1px solid #fff;
+  display: inline-block;
+  margin: 20px;
+}
