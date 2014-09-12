@@ -16,14 +16,15 @@ body {
 }
 .home_hero_button {
   display: inline-block;
-  margin: 22% 0;
+  margin: 22% auto;
+  padding: 30px;
   color: #fff;
   border: 1px solid #fff;
   text-transform: uppercase;
 }
 .home_hero_button .divider {
-  height: 14px;
   border-right: 1px solid #fff;
-  display: inline-block;
+  display: inline;
   margin: 20px;
+  padding: 10px 0;
 }
