@@ -1,6 +1,7 @@
 @import 'normalize.css'
 @import 'jeet'
 @import 'colors.styl'
+@import 'typography.styl'
 
 edit()
 
@@ -9,7 +10,7 @@ html
  
 body
 	border: 50px solid dark_grey
- 	//height: 100%	
+	body_copy_typography()
 
 .home_hero
 	//height: 660px
@@ -21,12 +22,22 @@ body
 .home_hero_button
 	display: inline-block
 	margin: 22% auto
-	padding: 30px
+	padding: 25px
 	color: white
 	border: 1px solid white
 	text-transform: uppercase
+		.title
+			title_1()
+			top: 2px
 		.divider
 			border-right: 1px solid white
 			display: inline
 			margin: 20px
 			padding: 10px 0
+		.date
+			font-size: 20px
+			letter-spacing: .3em
+			position: relative
+			top: 1px
+			margin-left: 10px
+
