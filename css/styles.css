@@ -1,14 +1,42 @@
 @import 'normalize.css';
-html {
+* {
   box-sizing: border-box;
 }
 body {
-  border: 50px solid #282828;
   font-family: 'Libre Baskerville', serif;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 2px;
+  background-color: #282828;
+}
+.clear_nav {
+  height: 120px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.reg_nav {
+  height: 60px;
+  position: fixed;
+  left: 50px;
+  right: 50px;
+  top: 0;
+  background-color: #fff;
+}
+.logo {
+  height: 52px;
+  fill: #fff;
+  position: relative;
+  top: 50%;
+  margin-top: -26px;
+  margin-left: 26px;
+}
+.mega_wrapper {
+  margin: 50px;
   background-color: #edede8;
+  position: relative;
 }
 .home_hero {
   height: 620px;
@@ -69,6 +97,7 @@ body {
 }
 section {
   margin-top: 120px;
+  background-color: #edede8;
 }
 .portfolio {
   text-align: center;
