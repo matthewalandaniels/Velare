@@ -208,6 +208,8 @@ section {
   right: 30px;
   background-color: #fff;
   opacity: 0;
+  -webkit-transition: opacity 250ms;
+          transition: opacity 250ms;
 }
 .project_thumb .text {
   position: absolute;
