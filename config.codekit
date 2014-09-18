@@ -131,7 +131,7 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"\/stylus\/typography.styl": {

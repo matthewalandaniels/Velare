@@ -6,11 +6,20 @@
 //edit()
 
 *
-	box-sizing: border-box
+	//box-sizing: border-box
  
 body
 	body_copy_typography()
 	background-color: dark_grey
+
+a
+	color: grey
+
+.mega_wrapper
+	margin: 50px
+	padding-bottom: 50px
+	background-color: cream
+	position: relative
 
 .clear_nav
 	height: 120px
@@ -29,17 +38,29 @@ body
 	background-color: white
 
 .logo
-	height: h = 52px
 	fill: white
-	position: relative
-	top: 50%
-	margin-top: -(h / 2)
-	margin-left: 26px
+	height: 52px
+	width: 200px
+	align(vertical)
+	left: 26px
 
-.mega_wrapper
-	margin: 50px
-	background-color: cream
-	position: relative
+.nav_links
+	align(vertical)
+	right: 50px
+	text-transform: uppercase
+	font-family: 'Montserrat', sans-serif
+	font-weight: 400
+	font-size: 12px
+	letter-spacing: .3em
+	a
+		color: rgba(255, 255, 255, 0.6)
+		margin-left: 50px
+	a:hover
+		color: white
+
+.selected
+	padding-bottom: 5px
+	border-bottom: 1px solid green
 
 .home_hero
 	height: 620px
@@ -50,7 +71,7 @@ body
 .home_hero_button
 	display: inline-block
 	position: relative
-	top: 350px
+	top: 320px
 	padding: 25px 30px
 	color: white
 	border: 1px solid white
@@ -93,9 +114,10 @@ section
 	background-color: cream
 
 .portfolio
-	text-align: center
+	center(1014px, pad=3%)
 
 .section_title
+	text-align: center
 	title_3()
 	margin-bottom: 60px
 	
@@ -105,4 +127,53 @@ section
 	border-bottom: 1px solid grey
 	display: block
 	margin: 20px auto 0
+
+.project_thumb:nth-child(odd)
+	margin-right: 0
+
+.project_thumb
+	col(1/2)
+	margin-bottom: 60px
+	display: block
+	position: relative
+	text-align: center
+	img
+		width: 100%
+	.overlay
+		position: absolute
+		top: 30px
+		bottom: 30px
+		left: 30px
+		right: 30px
+		background-color: white
+		opacity: 0
+	.text
+		align(both)
+		width: 100%
+	.couple
+		font-size: 15px
+		text-transform: uppercase
+		letter-spacing: .2em
+	.location
+		title_4()
+
+.couple::after
+	content: ""
+	width: 40px
+	border-bottom: 1px solid green
+	display: block
+	margin: 10px auto
+
+.overlay:hover
+	opacity: 1
+		
+		
+
+
+
+
+
+
+
+
 
