@@ -432,3 +432,14 @@ th {
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
+input {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  border: none;
+}
+
+:focus {
+  outline: 0;
+}
