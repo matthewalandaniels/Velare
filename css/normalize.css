@@ -443,3 +443,7 @@ input {
 :focus {
   outline: 0;
 }
+
+svg {
+ max-height: 100%; 
+}

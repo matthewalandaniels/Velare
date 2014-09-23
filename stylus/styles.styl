@@ -21,30 +21,52 @@ a
 	background-color: cream
 	position: relative
 
-.clear_nav
+.nav_clear
 	height: 120px
 	margin: 0 auto
 	border-bottom: 1px solid rgba(255, 255, 255, 0.3)
 	position: absolute
 	left: 0
 	right: 0
+	transition: height .2s ease-in-out,
+    					background .4s ease-in-out
 
-.reg_nav
+.nav_reg
+	height: 60px
+	position: absolute
+	left: 0
+	right: 0
+	top: 0
+	background-color: white
+	z-index: 100
+	transition: height .2s ease-in-out,
+    					background .4s ease-in-out
+
+.nav_reg_end
 	height: 60px
 	position: fixed
 	left: 50px
 	right: 50px
 	top: 0
 	background-color: white
-
-.logo
+	z-index: 100
+	transition: height .2s ease-in-out,
+    					background .4s ease-in-out
+.logo_clear
 	fill: white
 	height: 52px
-	width: 200px
 	align(vertical)
 	left: 26px
+	transition: all .2s ease-in-out
 
-.nav_links
+.logo_reg
+	fill: grey
+	height: 35px
+	align(vertical)
+	left: 26px
+	transition: all .2s ease-in-out
+
+.nav_links_clear
 	align(vertical)
 	right: 50px
 	text-transform: uppercase
@@ -55,14 +77,30 @@ a
 	a
 		color: rgba(255, 255, 255, 0.6)
 		margin-left: 50px
+		transition: all .2s ease-in-out
 	a:hover
 		color: white
 
+.nav_links_reg
+	align(vertical)
+	right: 40px
+	text-transform: uppercase
+	font-family: 'Montserrat', sans-serif
+	font-weight: 400
+	font-size: 11px
+	letter-spacing: .2em
+	a
+		color: grey
+		margin-left: 40px
+		transition: all .2s ease-in-out
+	a:hover
+		color: green
+
 .selected
-	padding-bottom: 5px
+	padding-bottom: 4px
 	border-bottom: 1px solid green
 
-.home_hero
+.home_hero, .about_hero
 	height: 620px
 	background: url('../img/home_hero.jpg') no-repeat center center
 	background-size: cover
@@ -77,6 +115,7 @@ a
 	border: 1px solid white
 	text-transform: uppercase
 	overflow: hidden
+	transition: opacity .2s ease-in-out
 		.title
 			title_1()
 			top: 2px
@@ -108,6 +147,9 @@ a
 			padding: 42px 0
 			position: relative
 			top: -5px
+
+.home_hero_button:hover
+	opacity: .7
 
 section
 	margin-top:120px
@@ -148,9 +190,12 @@ section
 		right: 30px
 		background-color: white
 		opacity: 0
+		transition: opacity .1s ease-in-out
 	.text
 		align(both)
 		width: 100%
+		opacity: 0
+		transition: opacity .4s ease-in-out
 	.couple
 		font-size: 15px
 		text-transform: uppercase
@@ -166,7 +211,7 @@ section
 	margin: 10px auto
 
 .project_thumb:hover
-	.overlay
+	.overlay, .text
 		opacity: 1
 		
 .footer
@@ -210,6 +255,7 @@ section
 		padding-left: 15px
 		background: cream
 		letter-spacing: .2em
+		transition: background .2s ease-in-out
 	.button
 		span(2/6)
 		background: grey
@@ -220,11 +266,14 @@ section
 		font-size: 12px
 		letter-spacing: .3em
 		text-transform: uppercase
+		transition: opacity .2s ease-in-out
 	:focus
-			background: white
+		background: white
+	.button:hover
+		opacity: .8
 
 .row_2
-	#mini_logo
+	.mini_logo
 		display: inline
 		position: relative
 		width: 26px
@@ -247,6 +296,10 @@ section
 		float: right
 		position: relative
 		top: 2px
+		fill: grey
+		transition: fill .2s ease-in-out
+	#facebook:hover, #pinterest:hover, #twitter:hover
+		fill: green
 
 
 
