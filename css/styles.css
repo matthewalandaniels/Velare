@@ -130,8 +130,8 @@ a {
 .home_hero,
 .about_hero {
   height: 620px;
-  background: url("../img/home_hero.jpg") no-repeat center center;
-  background-size: cover;
+  background-position: center, center;
+  background-size: cover !important;
   text-align: center;
 }
 .home_hero_button {
@@ -186,6 +186,37 @@ a {
   padding: 42px 0;
   position: relative;
   top: -5px;
+}
+.about_hero {
+  overflow: hidden;
+}
+.about_hero .divider {
+  height: 300px;
+  width: 1px;
+  border-right: 1px solid #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 380px;
+  bottom: -152px;
+}
+.about_hero_title {
+  display: inline-block;
+  position: relative;
+  top: 380px;
+  padding: 25px 30px;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  text-transform: uppercase;
+}
+.about_hero_title .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  position: relative;
+  text-transform: uppercase;
+  top: 2px;
 }
 .home_hero_button:hover {
   opacity: 0.7;

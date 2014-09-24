@@ -58,6 +58,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/about_hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.45139e+07,
+		"inputAbbreviatedPath": "\/img\/about_hero.jpg",
+		"outputAbbreviatedPath": "\/img\/about_hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home_hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
