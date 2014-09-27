@@ -2,12 +2,39 @@
 body {
   font-family: 'Libre Baskerville', serif;
   font-size: 13px;
-  line-height: 20px;
-  letter-spacing: 2px;
+  line-height: 1.9em;
+  letter-spacing: 0.1em;
+  color: #676a6f;
   background-color: #282828;
 }
 a {
   color: #676a6f;
+}
+a:hover {
+  color: #b2dab9;
+}
+section {
+  background-color: #edede8;
+  overflow: hidden;
+}
+.center_wrapper {
+  *zoom: 1;
+  width: auto;
+  max-width: 1014px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.center_wrapper:before,
+.center_wrapper:after {
+  content: '';
+  display: table;
+}
+.center_wrapper:after {
+  clear: both;
 }
 .mega_wrapper {
   margin: 50px;
@@ -130,7 +157,7 @@ a {
 .home_hero,
 .about_hero {
   height: 620px;
-  background-position: center, center;
+  background-position: center, center !important;
   background-size: cover !important;
   text-align: center;
 }
@@ -190,6 +217,20 @@ a {
 .about_hero {
   overflow: hidden;
 }
+.about_hero .title {
+  display: inline-block;
+  top: 380px;
+  padding: 25px 30px;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  position: relative;
+  text-transform: uppercase;
+}
 .about_hero .divider {
   height: 300px;
   width: 1px;
@@ -199,31 +240,8 @@ a {
   top: 380px;
   bottom: -152px;
 }
-.about_hero_title {
-  display: inline-block;
-  position: relative;
-  top: 380px;
-  padding: 25px 30px;
-  color: #fff;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  text-transform: uppercase;
-}
-.about_hero_title .title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  letter-spacing: 0.3em;
-  position: relative;
-  text-transform: uppercase;
-  top: 2px;
-}
 .home_hero_button:hover {
   opacity: 0.7;
-}
-section {
-  margin-top: 120px;
-  background-color: #edede8;
 }
 .portfolio {
   *zoom: 1;
@@ -235,6 +253,7 @@ section {
   margin-left: auto;
   padding-left: 3%;
   padding-right: 3%;
+  margin-top: 120px;
   margin-bottom: -60px;
 }
 .portfolio:before,
@@ -343,6 +362,178 @@ section {
 .project_thumb:hover .overlay,
 .project_thumb:hover .text {
   opacity: 1;
+}
+.about_info {
+  margin-top: 60px;
+}
+.about_info .headline {
+  padding-top: 50px;
+  border-top: 1px solid #b2dab9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 0.1em;
+  line-height: 1.6em;
+  position: relative;
+  text-transform: uppercase;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 39.9166666666667%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.about_info .headline:before,
+.about_info .headline:after {
+  content: '';
+  display: table;
+}
+.about_info .headline:after {
+  clear: both;
+}
+.about_info .headline:last-child {
+  margin-right: 0%;
+}
+.about_info .text {
+  padding-top: 50px;
+  border-top: 1px solid #676a6f;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 57.0833333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.about_info .text:before,
+.about_info .text:after {
+  content: '';
+  display: table;
+}
+.about_info .text:after {
+  clear: both;
+}
+.about_info .text:last-child {
+  margin-right: 0%;
+}
+.team {
+  margin-top: 120px;
+}
+.team .headline {
+  padding-top: 50px;
+  border-top: 1px solid #b2dab9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.3em;
+  position: relative;
+  text-transform: uppercase;
+  color: #676a6f;
+  letter-spacing: 0.2em;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 39.9166666666667%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.team .headline:before,
+.team .headline:after {
+  content: '';
+  display: table;
+}
+.team .headline:after {
+  clear: both;
+}
+.team .headline:last-child {
+  margin-right: 0%;
+}
+.team .profiles {
+  padding-top: 50px;
+  border-top: 1px solid #676a6f;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 57.0833333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.team .profiles:before,
+.team .profiles:after {
+  content: '';
+  display: table;
+}
+.team .profiles:after {
+  clear: both;
+}
+.team .profiles:last-child {
+  margin-right: 0%;
+}
+.team .profile {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: center;
+}
+.team .profile:before,
+.team .profile:after {
+  content: '';
+  display: table;
+}
+.team .profile:after {
+  clear: both;
+}
+.team .profile:last-child {
+  margin-right: 0%;
+}
+.team .profile img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.team .profile .first_name,
+.team .profile .last_name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
+  color: #676a6f;
+}
+.team .profile .last_name {
+  margin-bottom: 5px;
+}
+.locations {
+  margin-top: 120px;
+  padding-top: 50px;
+  border-top: 1px solid #b2dab9;
+}
+.locations .section_title {
+  margin-bottom: 20px;
+}
+.locations .description {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.locations .map {
+  margin-top: 60px;
 }
 .footer {
   margin-top: 180px;
