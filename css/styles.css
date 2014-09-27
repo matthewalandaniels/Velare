@@ -1,4 +1,7 @@
 @import 'normalize.css';
+* {
+  background: rgba(0,0,0,0.05);
+}
 body {
   font-family: 'Libre Baskerville', serif;
   font-size: 13px;
@@ -532,8 +535,37 @@ section {
   margin: 0 auto;
   text-align: center;
 }
-.locations .map {
+.locations .map_wrapper {
   margin-top: 60px;
+  position: relative;
+  max-width: 1014px;
+  max-height: 500px;
+}
+.locations .pin {
+  border-radius: 100%;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background: #b2dab9;
+}
+.locations .sf {
+  top: 39%;
+  left: 15%;
+}
+.locations .tokyo {
+  top: 42%;
+  left: 84%;
+}
+.locations .sydney {
+  top: 83%;
+  left: 87%;
+}
+.locations .paris {
+  top: 33%;
+  left: 48%;
+}
+.logos {
+  margin-top: 120px;
 }
 .footer {
   margin-top: 180px;

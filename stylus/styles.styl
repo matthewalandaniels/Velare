@@ -3,7 +3,7 @@
 @import 'colors.styl'
 @import 'typography.styl'
 
-//edit()
+edit()
 
 *
 	//box-sizing: border-box
@@ -285,8 +285,32 @@ section
 		width: 50%
 		margin: 0 auto
 		text-align: center
-	.map
+	.map_wrapper
 		margin-top: 60px
+		position: relative
+		max-width: 1014px
+		max-height: 500px
+	.pin
+		border-radius: 100%
+		position: absolute
+		width: 1em
+		height: 1em
+		background: green
+	.sf
+		top: 39%
+		left: 15%
+	.tokyo
+		top: 42%
+		left: 84%
+	.sydney
+		top: 83%
+		left: 87%
+	.paris
+		top: 33%
+		left: 48%
+
+.logos
+	margin-top: 120px
 		
 .footer
 	margin-top: 180px
