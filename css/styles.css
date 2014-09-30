@@ -744,9 +744,6 @@ section {
 .logos .logo:nth-child(5) {
   margin-right: 0;
 }
-.project_still {
-  width: 550px;
-}
 .footer {
   margin-top: 180px;
   margin-bottom: 60px;
@@ -945,12 +942,4 @@ section {
 .row_2 #pinterest:hover,
 .row_2 #twitter:hover {
   fill: #b2dab9;
-}
-#owl-demo .item {
-  margin: 10px;
-}
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
