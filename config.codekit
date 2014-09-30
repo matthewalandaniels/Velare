@@ -102,6 +102,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/still1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31269,
+		"inputAbbreviatedPath": "\/img\/still1.jpg",
+		"outputAbbreviatedPath": "\/img\/still1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/still2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26026,
+		"inputAbbreviatedPath": "\/img\/still2.jpg",
+		"outputAbbreviatedPath": "\/img\/still2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/still3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13361,
+		"inputAbbreviatedPath": "\/img\/still3.jpg",
+		"outputAbbreviatedPath": "\/img\/still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/trunks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 408986,
+		"inputAbbreviatedPath": "\/img\/trunks.jpg",
+		"outputAbbreviatedPath": "\/img\/trunks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -144,21 +188,74 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/stylus\/colors.styl": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
+	"\/owl-carousel\/grabbing.png": {
+		"fileType": 32768,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/stylus\/colors.styl",
-		"outputAbbreviatedPath": "\/css\/colors.css",
+		"initialSize": 116,
+		"inputAbbreviatedPath": "\/owl-carousel\/grabbing.png",
+		"outputAbbreviatedPath": "\/owl-carousel\/grabbing.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
+		"processed": 0
+		},
+	"\/owl-carousel\/owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/owl-carousel\/owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/owl-carousel\/owl.carousel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/owl-carousel\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/owl-carousel\/min\/owl.carousel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/owl-carousel\/owl.carousel.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/owl-carousel\/owl.carousel.min.js",
+		"outputAbbreviatedPath": "\/owl-carousel\/min\/owl.carousel.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/owl-carousel\/owl.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/owl-carousel\/owl.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/owl-carousel\/owl.transitions.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/owl-carousel\/owl.transitions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/project.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/project.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stylus\/styles.styl": {
 		"createSourceMap": 0,
@@ -185,6 +282,22 @@
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/stylus\/typography.styl",
 		"outputAbbreviatedPath": "\/css\/typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"\/stylus\/variables.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/stylus\/variables.styl",
+		"outputAbbreviatedPath": "\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
