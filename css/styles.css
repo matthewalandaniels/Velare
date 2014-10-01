@@ -64,8 +64,8 @@ section {
   position: absolute;
   left: 0;
   right: 0;
-  -webkit-transition: height 0.2s ease-in-out, background 0.4s ease-in-out;
-          transition: height 0.2s ease-in-out, background 0.4s ease-in-out;
+  -webkit-transition: height 0.2s ease, background 0.4s ease;
+          transition: height 0.2s ease, background 0.4s ease;
 }
 .nav_reg {
   height: 60px;
@@ -75,8 +75,8 @@ section {
   top: 0;
   background-color: #fff;
   z-index: 100;
-  -webkit-transition: height 0.2s ease-in-out, background 0.4s ease-in-out;
-          transition: height 0.2s ease-in-out, background 0.4s ease-in-out;
+  -webkit-transition: height 0.2s ease, background 0.4s ease;
+          transition: height 0.2s ease, background 0.4s ease;
 }
 .nav_reg_end {
   height: 60px;
@@ -86,8 +86,8 @@ section {
   top: 0;
   background-color: #fff;
   z-index: 100;
-  -webkit-transition: height 0.2s ease-in-out, background 0.4s ease-in-out;
-          transition: height 0.2s ease-in-out, background 0.4s ease-in-out;
+  -webkit-transition: height 0.2s ease, background 0.4s ease;
+          transition: height 0.2s ease, background 0.4s ease;
 }
 .logo_clear {
   fill: #fff;
@@ -100,8 +100,8 @@ section {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 26px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .logo_reg {
   fill: #676a6f;
@@ -114,8 +114,8 @@ section {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 26px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .nav_links_clear {
   position: absolute;
@@ -133,14 +133,13 @@ section {
   letter-spacing: 0.3em;
 }
 .nav_links_clear a {
-  color: #fff;
+  color: rgba(255,255,255,0.6);
   margin-left: 50px;
-  opacity: 0.6;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .nav_links_clear a:hover {
-  opacity: 1;
+  color: #fff;
 }
 .nav_links_reg {
   position: absolute;
@@ -160,8 +159,8 @@ section {
 .nav_links_reg a {
   color: #676a6f;
   margin-left: 40px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .nav_links_reg a:hover {
   color: #b2dab9;
@@ -191,8 +190,8 @@ section {
   border: 1px solid #fff;
   text-transform: uppercase;
   overflow: hidden;
-  -webkit-transition: opacity 0.2s ease-in-out;
-          transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
 }
 .home_hero_button .title {
   font-family: 'Montserrat', sans-serif;
@@ -262,8 +261,8 @@ section {
 .project_hero_button .play_icon {
   fill: #676a6f;
   width: 75px;
-  -webkit-transition: fill 0.2s ease-in-out;
-          transition: fill 0.2s ease-in-out;
+  -webkit-transition: fill 0.2s ease;
+          transition: fill 0.2s ease;
 }
 .project_hero_button .text {
   margin-top: 30px;
@@ -301,8 +300,8 @@ section {
   bottom: -15px;
   left: -15px;
   right: -15px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .project_hero_button:hover::after {
   border: 1px solid #b2dab9;
@@ -394,8 +393,8 @@ section {
   right: 30px;
   background-color: #fff;
   opacity: 0;
-  -webkit-transition: opacity 0.1s ease-in-out;
-          transition: opacity 0.1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease;
+          transition: opacity 0.1s ease;
 }
 .project_thumb .text {
   position: absolute;
@@ -408,8 +407,8 @@ section {
           transform: translate(-50%, -50%);
   width: 100%;
   opacity: 0;
-  -webkit-transition: opacity 0.4s ease-in-out;
-          transition: opacity 0.4s ease-in-out;
+  -webkit-transition: opacity 0.4s ease;
+          transition: opacity 0.4s ease;
 }
 .project_thumb .couple {
   font-size: 15px;
@@ -645,8 +644,8 @@ section {
   margin-bottom: 5px;
 }
 .team a {
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
 }
 .team a:hover {
   color: #b2dab9;
@@ -743,6 +742,9 @@ section {
 }
 .logos .logo:nth-child(5) {
   margin-right: 0;
+}
+.film_stills {
+  margin-top: 120px;
 }
 .footer {
   margin-top: 180px;
@@ -859,8 +861,8 @@ section {
   padding-left: 15px;
   background: #edede8;
   letter-spacing: 0.2em;
-  -webkit-transition: background 0.2s ease-in-out;
-          transition: background 0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease;
+          transition: background 0.2s ease;
 }
 .newsletter_form .email:before,
 .newsletter_form .email:after {
@@ -888,8 +890,8 @@ section {
   font-size: 12px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  -webkit-transition: opacity 0.2s ease-in-out;
-          transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease;
+          transition: opacity 0.2s ease;
 }
 .newsletter_form .button:before,
 .newsletter_form .button:after {
@@ -935,8 +937,8 @@ section {
   margin-left: 15px;
   top: 14px;
   fill: #676a6f;
-  -webkit-transition: fill 0.2s ease-in-out;
-          transition: fill 0.2s ease-in-out;
+  -webkit-transition: fill 0.2s ease;
+          transition: fill 0.2s ease;
 }
 .row_2 #facebook:hover,
 .row_2 #pinterest:hover,

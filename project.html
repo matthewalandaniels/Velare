@@ -15,7 +15,7 @@
 
 			<div class="nav_links_reg">
 			  <a href="index.html">Home</a>
-			  <a class="selected" href="about.html">About</a>
+			  <a href="about.html">About</a>
 			  <a href="#">Contact</a>
 			  <a href="#">Blog</a>
 			</div>
@@ -57,14 +57,18 @@
 			</section>
 		</div>
 		
-		<div class="owl-carousel">
-			<img class="item" src="img/still1.jpg" alt="">
-			<img class="item" src="img/still2.jpg" alt="">
-			<img class="item" src="img/still3.jpg" alt="">
-			<img class="item" src="img/still1.jpg" alt="">
-			<img class="item" src="img/still2.jpg" alt="">
-			<img class="item" src="img/still3.jpg" alt="">
-		</div>
+		<section class="film_stills">
+			<p class="section_title">Film Stills</p>
+
+			<div class="owl-carousel">
+				<img class="item" src="img/still1.jpg" alt="">
+				<img class="item" src="img/still2.jpg" alt="">
+				<img class="item" src="img/still3.jpg" alt="">
+				<img class="item" src="img/still1.jpg" alt="">
+				<img class="item" src="img/still2.jpg" alt="">
+				<img class="item" src="img/still3.jpg" alt="">
+			</div>
+		</section>
 
 		<section class="footer">
 			<div class="row_1">
@@ -122,8 +126,11 @@
 		});
 	</script>
 	<script>
-		$(document).ready(function(){
-  		$(".owl-carousel").owlCarousel();
+		$('.owl-carousel').owlCarousel({
+		    center:true,
+		    items:2,
+		    loop:true,
+		    margin:10,
 		});
 	</script>
 </body>

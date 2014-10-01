@@ -5,8 +5,6 @@
 
 //edit()
 
-
-
 *
 	//box-sizing: border-box
  
@@ -57,8 +55,8 @@ grey_block()
 	position: absolute
 	left: 0
 	right: 0
-	transition: height .2s ease-in-out,
-    					background .4s ease-in-out
+	transition: height .2s ease,
+    					background .4s ease
 
 .nav_reg
 	height: half
@@ -68,8 +66,8 @@ grey_block()
 	top: 0
 	background-color: white
 	z-index: 100
-	transition: height .2s ease-in-out,
-    					background .4s ease-in-out
+	transition: height .2s ease,
+    					background .4s ease
 
 .nav_reg_end
 	height: half
@@ -79,21 +77,21 @@ grey_block()
 	top: 0
 	background-color: white
 	z-index: 100
-	transition: height .2s ease-in-out,
-    					background .4s ease-in-out
+	transition: height .2s ease,
+    					background .4s ease
 .logo_clear
 	fill: white
 	height: 52px
 	align(vertical)
 	left: 26px
-	transition: all .2s ease-in-out
+	transition: all .2s ease
 
 .logo_reg
 	fill: grey
 	height: 35px
 	align(vertical)
 	left: 26px
-	transition: all .2s ease-in-out
+	transition: all .2s ease
 
 .nav_links_clear
 	align(vertical)
@@ -104,12 +102,11 @@ grey_block()
 	font-size: 12px
 	letter-spacing: .3em
 	a
-		color: white
+		color: rgba(255 255 255 .6)
 		margin-left: 50px
-		opacity: .6
-		transition: all .2s ease-in-out
+		transition: all .2s ease
 	a:hover
-		opacity: 1
+		color: white
 
 .nav_links_reg
 	align(vertical)
@@ -122,7 +119,7 @@ grey_block()
 	a
 		color: grey
 		margin-left: 40px
-		transition: all .2s ease-in-out
+		transition: all .2s ease
 	a:hover
 		color: green
 
@@ -148,7 +145,7 @@ grey_block()
 	border: 1px solid white
 	text-transform: uppercase
 	overflow: hidden
-	transition: opacity .2s ease-in-out
+	transition: opacity .2s ease
 		.title
 			title_1()
 			top: 2px
@@ -198,7 +195,7 @@ grey_block()
 	.play_icon
 		fill: grey
 		width: 75px
-		transition: fill .2s ease-in-out
+		transition: fill .2s ease
 	.text
 		margin-top: quarter
 		width: 100%
@@ -228,7 +225,7 @@ grey_block()
 	bottom: -15px
 	left: -15px
 	right: -15px
-	transition: all .2s ease-in-out
+	transition: all .2s ease
 
 .project_hero_button:hover::after
 	border: 1px solid green
@@ -276,12 +273,12 @@ grey_block()
 		right: quarter
 		background-color: white
 		opacity: 0
-		transition: opacity .1s ease-in-out
+		transition: opacity .1s ease
 	.text
 		align(both)
 		width: 100%
 		opacity: 0
-		transition: opacity .4s ease-in-out
+		transition: opacity .4s ease
 	.couple
 		font-size: 15px
 		text-transform: uppercase
@@ -341,7 +338,7 @@ grey_block()
 		.last_name
 			margin-bottom: 5px
 	a
-		transition: all .2s ease-in-out
+		transition: all .2s ease
 	a:hover
 		color: green
 
@@ -387,6 +384,9 @@ grey_block()
 		margin-bottom: quarter
 	.logo:nth-child(5)
 		margin-right: 0
+
+.film_stills
+	margin-top: normal
 		
 .footer
 	margin-top: 180px
@@ -429,7 +429,7 @@ grey_block()
 		padding-left: 15px
 		background: cream
 		letter-spacing: .2em
-		transition: background .2s ease-in-out
+		transition: background .2s ease
 	.button
 		span(2/6)
 		background: grey
@@ -440,7 +440,7 @@ grey_block()
 		font-size: 12px
 		letter-spacing: .3em
 		text-transform: uppercase
-		transition: opacity .2s ease-in-out
+		transition: opacity .2s ease
 	:focus
 		background: white
 	.button:hover
@@ -472,7 +472,7 @@ grey_block()
 		margin-left: 15px
 		top: 14px
 		fill: grey
-		transition: fill .2s ease-in-out
+		transition: fill .2s ease
 	#facebook:hover, #pinterest:hover, #twitter:hover
 		fill: green
 
