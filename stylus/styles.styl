@@ -16,7 +16,6 @@ a
 	color: grey
 
 section
-	background-color: cream
 	overflow: hidden
 
 .section_title
@@ -475,4 +474,35 @@ grey_block()
 		transition: fill .2s ease
 	#facebook:hover, #pinterest:hover, #twitter:hover
 		fill: green
+
+#contact_info
+	display: none
+	width: 38%
+	margin: 0 auto
+	padding: half
+	color: white
+	border: 1px solid rgba(255 255 255 .3)
+	.title
+		title_1()
+	.text
+		margin-top: quarter
+		margin-bottom: quarter
+	.row>div
+		border-top: 1px solid rgba(255 255 255 .3)
+		padding-top: 15px
+		margin-top: quarter
+	.email_icon, .phone_icon
+		col(2/12)
+		img
+			width: 20px
+	.email_address, .phone_number
+		col(10/12)
+		shift(1/12)
+		title_1()
+		font-size: 15px
+		a
+			color: white
+			transition: color .2s ease
+		a:hover
+			color: green
 

@@ -11,7 +11,6 @@ a {
   color: #676a6f;
 }
 section {
-  background-color: #edede8;
   overflow: hidden;
 }
 .section_title {
@@ -944,4 +943,106 @@ section {
 .row_2 #pinterest:hover,
 .row_2 #twitter:hover {
   fill: #b2dab9;
+}
+#contact_info {
+  display: none;
+  width: 38%;
+  margin: 0 auto;
+  padding: 60px;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+#contact_info .title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  position: relative;
+  text-transform: uppercase;
+}
+#contact_info .text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#contact_info .row>div {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 15px;
+  margin-top: 30px;
+}
+#contact_info .email_icon,
+#contact_info .phone_icon {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 14.166666666666702%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+#contact_info .email_icon:before,
+#contact_info .phone_icon:before,
+#contact_info .email_icon:after,
+#contact_info .phone_icon:after {
+  content: '';
+  display: table;
+}
+#contact_info .email_icon:after,
+#contact_info .phone_icon:after {
+  clear: both;
+}
+#contact_info .email_icon:last-child,
+#contact_info .phone_icon:last-child {
+  margin-right: 0%;
+}
+#contact_info .email_icon img,
+#contact_info .phone_icon img {
+  width: 20px;
+}
+#contact_info .email_address,
+#contact_info .phone_number {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 82.8333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  position: relative;
+  left: 8.5833333333333%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.3em;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+#contact_info .email_address:before,
+#contact_info .phone_number:before,
+#contact_info .email_address:after,
+#contact_info .phone_number:after {
+  content: '';
+  display: table;
+}
+#contact_info .email_address:after,
+#contact_info .phone_number:after {
+  clear: both;
+}
+#contact_info .email_address:last-child,
+#contact_info .phone_number:last-child {
+  margin-right: 0%;
+}
+#contact_info .email_address a,
+#contact_info .phone_number a {
+  color: #fff;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+}
+#contact_info .email_address a:hover,
+#contact_info .phone_number a:hover {
+  color: #b2dab9;
 }

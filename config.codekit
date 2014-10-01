@@ -31,6 +31,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/css\/nivo-lightbox.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/nivo-lightbox.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/nivo-theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/nivo-theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -87,6 +105,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/close.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2949,
+		"inputAbbreviatedPath": "\/img\/close.png",
+		"outputAbbreviatedPath": "\/img\/close.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/close@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3097,
+		"inputAbbreviatedPath": "\/img\/close@2x.png",
+		"outputAbbreviatedPath": "\/img\/close@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dude1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -116,6 +156,50 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/map.png",
 		"outputAbbreviatedPath": "\/img\/map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/next.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3193,
+		"inputAbbreviatedPath": "\/img\/next.png",
+		"outputAbbreviatedPath": "\/img\/next.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/next@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4235,
+		"inputAbbreviatedPath": "\/img\/next@2x.png",
+		"outputAbbreviatedPath": "\/img\/next@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/prev.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3184,
+		"inputAbbreviatedPath": "\/img\/prev.png",
+		"outputAbbreviatedPath": "\/img\/prev.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/prev@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4224,
+		"inputAbbreviatedPath": "\/img\/prev@2x.png",
+		"outputAbbreviatedPath": "\/img\/prev@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -179,6 +263,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/nivo-lightbox-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/nivo-lightbox-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/nivo-lightbox-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/nivo-lightbox.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/nivo-lightbox.js",
+		"outputAbbreviatedPath": "\/js\/min\/nivo-lightbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

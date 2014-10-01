@@ -4,6 +4,8 @@
 		<link href="css/styles.css" rel="stylesheet" type="text/css" href="styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/nivo-lightbox.css" type="text/css" />
+		<link rel="stylesheet" href="css/nivo-theme.css" type="text/css" />
 </head>
 <body>
 	<div class="mega_wrapper">
@@ -17,7 +19,7 @@
 			<div class="nav_links_clear">
 			  <a  class="selected" href="#">Home</a>
 			  <a href="about.html">About</a>
-			  <a href="#">Contact</a>
+			  <a href="#contact_info" data-lightbox-type="inline">Contact</a>
 			  <a href="#">Blog</a>
 			</div>
 
@@ -26,7 +28,7 @@
 		<div class="home_hero" style="
 		background: url('../img/home_hero.jpg') no-repeat;
 		">
-				<a href="#" class="home_hero_button">
+				<a href="https://vimeo.com/74158506" class="home_hero_button">
 				<span class="title">Wedding Reel</span>
 				<div class="divider1"></div>
 				<span class="date">2014</span>
@@ -199,9 +201,23 @@
 				
 			</div>
 		</section>
+
+		<div id="contact_info">
+				<p class="title">Contact Info</p>
+				<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				<section class="row">
+					<div class="email_icon"><img src="img/email_icon.svg"></div>
+					<div class="email_address"><a href="#">hello@velare.tv</a></div>
+				</section>
+				<section class="row">
+					<div class="phone_icon"><img src="img/phone_icon.svg"></div>
+					<div class="phone_number">(800) 555-1234</div>
+				</section>
+		</div>
 	</div>
 	<script type="text/javascript" src="../js/vendor/jquery-1.11.0.min.js"></script>
-	<script>
+	<script src="js/nivo-lightbox.js"></script>
+	<script> /*nav animation*/
 		$(window).scroll(function () {
   
 		if ($(document).scrollTop() > 50) {
@@ -218,7 +234,11 @@
 		    logo.setAttribute('class', 'logo_clear');
 	  	} 
 		});
-
+	</script>
+	<script> /*nivo lightbox*/
+		$(document).ready(function(){
+		    $('a').nivoLightbox();
+		});
 	</script>
 </body>
 </html>

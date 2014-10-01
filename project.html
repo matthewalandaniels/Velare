@@ -6,6 +6,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/owl.theme.default.css">
+		<link rel="stylesheet" href="css/nivo-lightbox.css" type="text/css" />
+		<link rel="stylesheet" href="css/nivo-theme.css" type="text/css" />
 </head>
 <body>
 	<div class="mega_wrapper">
@@ -22,7 +24,7 @@
 		</nav>
 
 		<div class="project_hero" style="background: url('../img/trunks.jpg') no-repeat;">
-			<a href="#" class="project_hero_button">
+			<a href="https://vimeo.com/74158506" class="project_hero_button">
 				<div class="play_button">
 					<?xml version="1.0" encoding="utf-8"?>
 					<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -113,7 +115,8 @@
 	</div>
 	<script type="text/javascript" src="../js/vendor/jquery-1.11.0.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script>
+	<script src="js/nivo-lightbox.js"></script>
+	<script> /*nav animation*/
 		$(window).scroll(function () {
   
 		if ($(document).scrollTop() > 50) {
@@ -125,12 +128,17 @@
 	  	} 
 		});
 	</script>
-	<script>
+	<script> /*owl carousel*/
 		$('.owl-carousel').owlCarousel({
 		    center:true,
 		    items:2,
 		    loop:true,
 		    margin:10,
+		});
+	</script>
+	<script> /*nivo lightbox*/
+		$(document).ready(function(){
+		    $('a').nivoLightbox();
 		});
 	</script>
 </body>
